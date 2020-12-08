@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+/*						Rooms					*/
+
+.rooms
+{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+
+.rooms h2
+{
+	font-size: 30px;
+}
+
+.rooms h1
+{
+	color: #22708a;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.rooms p
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: teal;
+}
+

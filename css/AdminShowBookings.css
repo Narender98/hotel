@@ -1,0 +1,266 @@
+@charset "ISO-8859-1";
+
+body
+{
+	background: white;
+}
+
+.box
+{
+	background: beige;
+	height: 640px;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+.navbar
+{
+	background-color: #22708a;
+	height: 50px;
+}
+
+.logo a
+{
+	color: white;
+	text-align: center;
+	margin-left: 0px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+
+.logo a:hover
+{
+	color: silver;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin-left: -10px;
+}
+
+body h1
+{
+	color: #22708a;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 30px;
+}
+
+.logout
+{
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	border: 0;
+	background: white;
+	display: inline;
+	text-align: center;
+	border: 2px solid cyan;
+	padding: 5px 15px;
+	outline: none;
+	color: #356278;
+	border-radius: 0px;
+	transiton: 0.25s;
+	cursor: pointer;
+}
+
+.logout:hover
+{
+	border: 3px dotted #356278;
+	color: #356278;
+	background: white;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+table
+{
+	margin-top: 70px;
+}
+
+th
+{
+	padding-right: 50px;
+	left: 20px;
+	font-size: 16px;
+}
+
+td 
+{
+	color: teal;
+	text-align: left;
+	padding-right: 30px;
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+
+
+/*-----------------------------------------------Media Query-------------------------------------------------------*/
+
+@media(min-width: 1281px)
+{
+	.logo a
+	{
+		font-size: 17px;
+	}
+	
+	th
+	{
+		font-size: 16px;
+	}
+	
+	td
+	{
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 1280px) 
+{
+	.logo a
+	{
+		font-size: 17px;
+	}
+	
+	th
+	{
+		font-size: 16px;
+	}
+	
+	td
+	{
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 1025px)
+{
+	.logo a
+	{
+		font-size: 15px;
+	}
+	
+	th
+	{
+		font-size: 16px;
+	}
+	
+	td
+	{
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 961px)
+{
+	.logo a
+	{
+		font-size: 15px;
+	}
+	
+	th
+	{
+		font-size: 16px;
+	}
+	
+	td
+	{
+		font-size: 15px;
+	}
+}	
+
+@media(max-width: 768px)
+{
+	.logo a
+	{
+		font-size: 14px;
+	}
+	
+	th
+	{
+		font-size: 15px;
+	}
+	
+	td
+	{
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 576px)
+{
+	.logo a
+	{
+		font-size: 13px;
+	}
+	
+	th
+	{
+		font-size: 14px;
+	}
+	
+	td
+	{
+		font-size: 13px;
+	}
+	
+	body h1
+	{
+		font-size: 27px;
+	}
+}
+
+@media(max-width: 530px)
+{
+	.logo a
+	{
+		font-size: 12px;
+	}
+	
+	th
+	{
+		font-size: 14px;
+	}
+	
+	td
+	{
+		font-size: 13px;
+	}
+	
+	body h1
+	{
+		font-size: 26px;
+	}
+}
+
+@media(max-width: 480px)
+{
+	.logo a
+	{
+		font-size: 12px;
+	}
+	
+	th
+	{
+		font-size: 13px;
+	}
+	
+	td
+	{
+		font-size: 12px;
+	}
+	
+	.logout
+	{
+		padding: 4px 10px;
+	}
+	
+	body h1
+	{
+		font-size: 25px;
+	}
+	
+}

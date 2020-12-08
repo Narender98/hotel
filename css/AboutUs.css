@@ -1,0 +1,151 @@
+@charset "ISO-8859-1";
+
+/*					About Us               */
+
+body
+{
+	background-image: url("../Images/Banner/Home4.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 660px;	
+}
+
+.heading 
+{
+	position: relative;
+	background: black;
+	opacity: 0.8;
+	height: 610px;
+	top: 50px;
+}
+
+.heading h1
+{
+	position: relative;
+	color: cyan;
+	top: 60px;
+	left: 0px;
+	width: 500px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.heading h2
+{
+	position: relative;
+	color: white;
+	width: 500px;
+	top: 120px;
+	left: 0px;
+	text-align: center;
+	font-size: 18px;	
+}
+
+
+
+/*-----------------------------------------------Media Query-------------------------------------------------------*/
+
+@media(min-width: 1281px)
+{
+	.heading h1
+	{
+		font-size: 30px;
+	}
+	
+	.heading h2
+	{
+		font-size: 18px;
+	}
+}
+
+@media(max-width: 1280px) 
+{
+	.heading h1
+	{
+		font-size: 30px;
+	}
+	
+	.heading h2
+	{
+		font-size: 18px;
+	}
+}
+
+@media(max-width: 1025px)
+{
+	.heading h1
+	{
+		font-size: 28px;
+	}
+	
+	.heading h2
+	{
+		font-size: 17px;
+	}
+}
+
+@media(max-width: 961px)
+{
+	.heading h1
+	{
+		font-size: 26px;
+	}
+	
+	.heading h2
+	{
+		font-size: 17px;
+	}
+}
+
+@media(max-width: 961px)
+{
+	.heading h1
+	{
+		font-size: 25px;
+	}
+	
+	.heading h2
+	{
+		font-size: 17px;
+	}
+}
+
+@media(max-width: 768px)
+{
+	.heading h1
+	{
+		font-size: 22px;
+	}
+	
+	.heading h2
+	{
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 576px)
+{
+	.heading h1
+	{
+		font-size: 20px;
+	}
+	
+	.heading h2
+	{
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 480px)
+{
+	.heading h1
+	{
+		font-size: 16px;
+	}
+	
+	.heading h2
+	{
+		font-size: 12px;
+	}
+}

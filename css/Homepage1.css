@@ -1,0 +1,499 @@
+@charset "ISO-8859-1";
+
+.bgimage
+{
+	background-image: url("../Images/Banner/Home5.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 660px;	
+}
+
+.headerset
+{
+	padding-top: 250px;
+	box-sizing: border-box;
+}
+
+.headerset h1
+{
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 0 0 50px teal;
+}
+
+.nav-link
+{
+	color: cyan;
+	margin-right: 15px;
+	font-family: verdana;
+	text-align: center;
+}
+
+.nav-link:hover
+{
+	color: white;
+	font-weight: bolder;
+	margin-right: 7px;
+	text-shadow: 0 0 60px white;
+	text-decoration: overline wavy white!important;
+}
+
+.navbar
+{
+	background-color: #22708a;
+}
+
+.logo a
+{
+	color: white;
+	text-align: center;
+	margin-left: 0px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.logo a:hover
+{
+	color: silver;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin-left: -10px;
+}
+
+.dropdown-position .dropdown-menu
+{
+	position: absolute;
+	top: 48px;
+	background: #22708a;
+	left: -17px;	
+}
+
+.dropdown-menu a
+{
+	color: cyan;
+	text-align: center;
+}
+
+.dropdown-menu a:hover
+{
+	background: #22708a;
+	color: white;
+	font-weight: bolder;
+	text-shadow: 0 0 60px white;
+	text-decoration: overline wavy white!important;	
+}
+
+/*---------------------ourservices ----------------*/
+
+.ourservices
+{
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+
+.ourservices h1
+{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.rowsetting
+{
+	margin: 80px 0px !important;
+}
+
+.imgsetting
+{
+	border-radius: 50%;
+	height: 100%;
+	width: 100px;
+}
+
+.fa-shopping-cart
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.fa-desktop
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.fa-envelope-o
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.rowsetting h2
+{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.rowsetting p
+{
+	padding: 10px;
+	color: navy;
+}
+
+
+
+/*---------------Rooms---------------*/
+
+.rooms
+{
+	height: 1050px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+
+.rooms h2
+{
+	font-size: 30px;
+}
+
+.rooms h1
+{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.rooms p
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: teal;
+}
+
+.card
+{
+	margin-top: 40px;
+}
+
+.rooms a
+{
+	bottom: 5px;
+	margin-left: 5px;
+	height: 25px;
+	text-align: center;
+	color: white;
+	background: teal;
+	font-weight: 500;
+}
+
+.rooms a:hover
+{
+	background: white;
+	color: teal;
+	text-decoration: none;
+}
+
+/*--------------------Services---------------------*/
+
+
+.boxGym1
+{
+	position: relative;
+	top: 40px;
+	height: 200px;
+}
+
+.boxGym1 h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	color: #22708a;
+	font-size: 28px;
+}
+
+.boxGym1 h2
+{
+	color: teal;
+	text-align: center;
+	font-size: 17px;
+}
+
+
+.boxGym2
+{
+	background-image: url("../Images/Services/gym.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+}
+
+
+.boxFood2
+{
+	background-image: url("../Images/Services/food.jpg");
+	background-repeat:no-repeat;
+	background-position: center;
+	height: 300px;
+	position: relative;
+	top: 0px;
+}
+
+
+.boxFood1
+{
+	position: relative;
+	top: 40px;
+	height: 200px
+}
+
+.boxFood1 h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	color: #22708a;
+	font-size: 28px;
+}
+
+.boxFood1 h2
+{
+	color: teal;
+	text-align: center;
+	font-size: 17px;	
+}
+
+
+/*--------------------Footer----------------------*/
+
+.footer
+{
+	position: relative;
+	background-color: #22708a;
+	height: 80px;
+	width: 100%;
+	bottom: 0px;
+	margin-top: 50px;
+}
+
+.copyright h6
+{
+	position: relative;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	top: 15px;
+}
+
+
+
+/*-----------------------------------------------Media Query-------------------------------------------------------*/
+
+@media(min-width: 1281px)
+{
+	.rooms
+	{
+		height: 1100px;
+	}
+	
+	.copyright h6
+	{
+		font-size: 14px;
+	}
+	
+	.logo a
+	{
+		font-size: 17px;
+	}
+}
+
+@media(max-width: 1280px) 
+{
+	.rooms
+	{
+		height: 1100px;
+	}
+	
+	.copyright h6
+	{
+		font-size: 15px;
+	}
+	
+	.logo a
+	{
+		font-size: 17px;
+	}
+}
+
+@media(max-width: 1025px)
+{
+	.rooms
+	{
+		height: 1000px;
+	}
+	
+	.headerset h1
+	{
+		font-size: 40px;
+	}
+	
+	.copyright h6
+	{
+		font-size: 14px;
+	}
+	
+	.logo a
+	{
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 961px)
+{
+	.rooms
+	{
+		height: 1000px;
+	}
+	
+	.headerset h1
+	{
+		font-size: 35px;
+	}
+	
+	.copyright h6
+	{
+		font-size: 13px;
+	}
+
+	.logo a
+	{
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 768px)
+{
+	.rooms
+	{
+		height: 3600px;
+	}
+	
+	.headerset h1
+	{
+		font-size: 28px;
+	}
+	
+	.copyright h6
+	{
+		font-size: 13px;
+	}
+	
+	.logo a
+	{
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 576px)
+{
+	.rooms
+	{
+		height: 3100px;
+	}
+	
+	.headerset h1
+	{
+		font-size: 25px;
+	}
+	
+	.copyright h6
+	{
+		font-size: 12px;
+	}
+	
+	.logo a
+	{
+		font-size: 13px;
+	}
+}
+
+@media(max-width: 530px)
+{
+	.rooms
+	{
+		height: 2900px;
+	}
+	
+	.headerset h1
+	{
+		font-size: 24px;
+	}
+	
+	.copyright h6
+	{
+		font-size: 10px;
+	}
+	
+	.logo a
+	{
+		font-size: 12px;
+	}
+}
+
+@media(max-width: 480px)
+{
+	.rooms
+	{
+		height: 2800px;
+	}
+	
+	.headerset h1
+	{
+		font-size: 18px;
+	}	
+	
+	.footer
+	{
+		bottom: 0px;
+	}
+	
+	.copyright h6
+	{
+		font-size: 7px;
+	}
+	
+	.logo a
+	{
+		font-size: 12px;
+	}
+}
+
+@media(max-width: 420px)
+{
+	.rooms
+	{
+		height: 2500px;
+	}
+	
+	.headerset h1
+	{
+		font-size: 18px;
+	}	
+	
+	.footer
+	{
+		bottom: 40px;
+	}
+	
+	.copyright h6
+	{
+		font-size: 7px;
+	}
+	
+	.logo a
+	{
+		font-size: 12px;
+	}
+}

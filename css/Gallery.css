@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+/*							Gallery Page						*/
+
+.container
+{
+	height: 1050px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+
+.container h1
+{
+	color: #22708a;
+	top: 0px;
+	font-weight: bold;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.container h3
+{
+	color: teal;
+	font-size: 15px;
+}
+
+
+
+
+
+/*-----------------------------------------------Media Query-------------------------------------------------------*/
+
+@media(min-width: 1281px)
+{
+	.rooms
+	{
+		height: 1100px;
+	}
+}
+
+@media(max-width: 1280px) 
+{
+	.rooms
+	{
+		height: 1100px;
+	}
+}
+
+@media(max-width: 1025px)
+{
+	.rooms
+	{
+		height: 1100px;
+	}
+}
+
+@media(max-width: 961px)
+{
+	.rooms
+	{
+		height: 1100px;
+	}
+}
+
+@media(max-width: 961px)
+{
+	.rooms
+	{
+		height: 900px;
+	}
+}
+
+@media(max-width: 768px)
+{
+	.rooms
+	{
+		height: 3300px;
+	}
+}
+
+@media(max-width: 576px)
+{
+	.rooms
+	{
+		height: 2800px;
+	}
+}
+
+@media(max-width: 480px)
+{
+	.rooms
+	{
+		height: 2500px;
+	}
+}
