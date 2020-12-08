@@ -221,7 +221,7 @@
 	<div class="footer">
 		<div class="copyright">
 			<h6>Disclaimer : No outside food, alcoholic & non-alcoholic beverages are allowed in the hotel premises.</h6>
-			<h6>Copyright © Hotel <span class="fa fa-2x fa-bed"></span> Heaven 2020, Designed By Narender Kumar</h6>
+			<h6>Copyright Â© Hotel <span class="fa fa-2x fa-bed"></span> Heaven 2020, Designed By Narender Kumar</h6>
 		</div>
 	</div>
 </body>
